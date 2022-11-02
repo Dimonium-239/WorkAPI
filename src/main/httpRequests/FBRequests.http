@@ -1,0 +1,6 @@
+# curl -i -X GET
+# "https://graph.facebook.com/v15.0/105485158961068/published_posts?access_token=EAAGl8xKrnPABAOhyBFdmRBS4inMcRGx087PwyZBTrMPXPPZBELDDS7n4VQSky7rGrPW5kgPtGbWnN2iJHSztERZCNZCgepvrepECVqgnIAWyVt3KZCSFJTW32dAbVRu9y2KZCfDKsInqpvtRZAuTpGCrxuLFGFMQjSuHA1FrE5MACiZANJVvzHcr"
+GET https://graph.facebook.com/v15.0/105485158961068/published_posts?access_token=EAAGl8xKrnPABAOhyBFdmRBS4inMcRGx087PwyZBTrMPXPPZBELDDS7n4VQSky7rGrPW5kgPtGbWnN2iJHSztERZCNZCgepvrepECVqgnIAWyVt3KZCSFJTW32dAbVRu9y2KZCfDKsInqpvtRZAuTpGCrxuLFGFMQjSuHA1FrE5MACiZANJVvzHcr
+
+###
+
