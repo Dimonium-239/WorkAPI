@@ -1,6 +1,4 @@
-FROM openjdk:11-jdk-alpine
-RUN addgroup -S spring && adduser -S spring -G spring
-USER spring:spring
-ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+FROM openjdk:11-jdk
+MAINTAINER dimonium_239.github.com
+COPY target/WorkUaAPI-0.0.1-SNAPSHOT.jar WorkUaAPI-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/WorkUaAPI-0.0.1-SNAPSHOT.jar"]
